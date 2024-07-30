@@ -1,26 +1,26 @@
 ---
 banner:
-  title: Welcome **!**
-  title_small: "to John Bravo's Blog"
-  content: Are Developer and recently started your own business Already made website to ensure presence wants to develop.
+  title: Dr. Benjamin Silva **!**
+  title_small: "Urólogo"
+  content: "Médico cirujano y Úrologo adultos Universidad de Chile, con más de 25 años de experiencia"
   image_enable: true
-  image: /images/banner-author.png
+  image: /images/doctor/fotoperfil.jpeg
   button:
     enable: true
-    label: Know About Me
+    label: Conoce más sobre mí
     link: /about
     rel: ""
 
 featured_posts:
   enable: true
-  title: Featured Posts
+  title: Publicaciones Destacadas
 
 promotion:
   enable: true
-  image: /images/promotion.png
+  image: /images/promotion-doctor.png
   link: "#"
 
 recent_posts:
-  title: Recent Posts
+  title: Publicaciones Recientes
   enable: true
 ---

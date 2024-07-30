@@ -1,23 +1,16 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Inicio",
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "Dr. Silva",
       "url": "/about"
     },
+
     {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Contact",
-      "url": "/contact"
-    },
-    {
-      "name": "Pages",
+      "name": "Especialidades",
       "url": "",
       "hasChildren": true,
       "children": [
@@ -26,19 +19,28 @@
           "url": "/categories"
         }
       ]
+    },
+    {
+      "name": "Reserva Presencial/Telemedicina",
+      "url": "https://www.redsalud.cl/medicos-y-especialidades/Benjamin_Silva_Barroilhet"
+    },
+
+    {
+      "name": "Contacto",
+      "url": "/contact"
     }
   ],
   "footer": [
     {
-      "name": "Home",
+      "name": "Inicio",
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "Dr. Silva",
       "url": "/about"
     },
     {
-      "name": "Contact",
+      "name": "Contacto",
       "url": "/contact"
     },
     {

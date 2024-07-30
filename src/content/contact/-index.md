@@ -1,19 +1,19 @@
 ---
-title: "Let’s, Talk </br> About You"
+title: "Contáctanos"
 description: "meta description"
-phone: "+211234565523"
-mail: "info@email.com"
-location: "9567 Turner Trace Apt. BC C3G8A4"
+phone: "+569 93216525"
+mail: "bensilvauro@gmail.com"
+location: "Av. Salvador 100, 7500995 Santiago, Providencia, Región Metropolitana"
 form_action: "#"
 social_links:
   - icon: FaUser
-    content: +211234565523
-    link: tel:+211234565523
+    content: 600 718 6000
+    link: tel:600 718 6000
   - icon: FaEnvelope
-    content: info@email.com
-    link: mailto:info@email.com
+    content: bensilvauro@gmail.com
+    link: bensilvauro@gmail.com
   - icon: FaLocationDot
-    content: 9567 Turner Trace Apt. BC C3G8A4
+    content: Av. Salvador 100, 7500995 Santiago, Providencia, Región Metropolitana
 
 draft: false
 ---
