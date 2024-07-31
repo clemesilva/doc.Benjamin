@@ -81,7 +81,7 @@ const featuredPosts = posts.filter((post) => post.data.featured);
     <div class="container">
       <div class="row items-start">
         <div class="mb-12 lg:mb-0 lg:col-8">
-          {/* Publicaciones destacdas*/}
+          {/*`publicaciones destacadas`  */}
           {
             featured_posts.enable && (
               <div class="section">
@@ -139,7 +139,20 @@ const featuredPosts = posts.filter((post) => post.data.featured);
           }
 
           {/* Promotion */}
-          
+          {
+            promotion.enable && (
+              <a href={promotion.link} class="section block pt-0">
+                <Image
+                  class="h-full w-full"
+                  height={115}
+                  width={800}
+                  src={promotion.image}
+                  alt="promotion"
+                  format="webp"
+                />
+              </a>
+            )
+          }
 
           {/* Recent Posts */}
           {
@@ -162,7 +175,10 @@ const featuredPosts = posts.filter((post) => post.data.featured);
             )
           }
 
-          
+          <Pagination
+            totalPages={Math.ceil(posts.length / pagination)}
+            currentPage={1}
+          />
         </div>
         <Sidebar className="lg:mt-[9.5rem]" posts={posts} />
       </div>

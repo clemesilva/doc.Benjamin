@@ -17,9 +17,14 @@
         {
           "name": "Categories",
           "url": "/categories"
+        },
+        {
+          "name": "Infecciones",
+          "url": "/infecciones"
         }
       ]
     },
+
     {
       "name": "Reserva Presencial/Telemedicina",
       "url": "https://www.redsalud.cl/medicos-y-especialidades/Benjamin_Silva_Barroilhet"
